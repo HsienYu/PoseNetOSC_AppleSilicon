@@ -1,5 +1,5 @@
 {
-  "name": "PoseNet-osc-Apple-silicon",
+  "name": "posenet-osc-apple-silicon",
   "version": "1.0.0",
   "description": "PoseNet and OSC send for Apple Silicon",
   "main": "main.js",
@@ -7,8 +7,8 @@
     "start": "electron .",
     "electron": "ELECTRON_DISABLE_SECURITY_WARNINGS=true electron ."
   },
-  "author": "",
-  "license": "ISC",
+  "author": "HYC",
+  "license": "Artistic-2.0",
   "devDependencies": {
     "electron": "^19.0.4",
     "electron-packager": "^15.5.1"
@@ -19,5 +19,13 @@
     "fs": "^0.0.1-security",
     "osc-js": "^2.0.3",
     "stats.js": "^0.17.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HsienYu/PoseNetOSC_AppleSilicon.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HsienYu/PoseNetOSC_AppleSilicon/issues"
+  },
+  "homepage": "https://github.com/HsienYu/PoseNetOSC_AppleSilicon#readme"
 }
